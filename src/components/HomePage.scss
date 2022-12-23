@@ -1,0 +1,27 @@
+.home-page-container {
+  background: url('../../public/images/nerf-gun.jpeg') center center/cover no-repeat; 
+  height: 92vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+p{
+  color: #fff;
+}
+  h1 {
+    color: #fff;
+    font-size: 100px;
+    margin-top: 10px;
+  }
+
+  .home-page-btns {
+    margin-top: 32px;
+
+    .btn {
+      margin: 6px;
+    }
+  }
+}
